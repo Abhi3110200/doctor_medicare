@@ -12,7 +12,7 @@ const Login = () => {
     }
   return (
     <section className='px-5 lg:px-0'>
-        <div className='w-full max-w-[570px] rounded-lg mx-auto shadow-md md:p-10'>
+        <div className='w-full max-w-[570px] rounded-lg mx-auto shadow-md md:p-10 sm:p-5'>
             <h3 className='text-headingColor text-[22px] leading-9 font-bold mb-10'>
                 Hello! <span className='text-primaryColor'>Welcome</span> Back
             </h3>

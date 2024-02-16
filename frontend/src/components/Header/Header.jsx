@@ -52,9 +52,9 @@ const Header = () => {
         <div className='container'>
             <div className='flex items-center justify-between'>
 
-                <div className=''>
+                <Link to={"/"}>
                     <img src={logo} alt=''/>
-                </div>
+                </Link>
 
                 <div className='navgiation' ref={menuRef} onClick={toggleMenu}>
                     <ul className='menu flex items-center gap-[2.7rem]'>

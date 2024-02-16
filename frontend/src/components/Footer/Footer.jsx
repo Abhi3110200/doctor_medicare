@@ -68,7 +68,7 @@ const Footer = () => {
   return (
     <footer className="pb-16 pt-10">
         <div className="container">
-            <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px]">
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-[20px] sm:grid-cols-2 grid-cols-1">
                 <div>
                     <img src={logo} alt=""/>
                     <p className="text-[16px] leading-7 font-[400] text-textColor mt-4">copyright {year} by Medicare all right reserved.</p>

@@ -14,7 +14,7 @@ const About = () => {
                 </div>
 
                 <div className='w-full lg:w-1/2 xl:w-[670px] lg:order-2 order-1'>
-                    <h2 className='heading'>
+                    <h2 className='heading lg:mb-3 sm:mb-5'>
                         Proud to be one of the nations best.
                     </h2>
                     <p className='text_para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officiis explicabo voluptatibus est veritatis modi obcaecati. Reiciendis minus doloribus laudantium! Asperiores praesentium laborum facilis, atque animi consequuntur culpa ipsum officiis.</p>
